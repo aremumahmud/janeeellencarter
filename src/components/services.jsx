@@ -1,4 +1,4 @@
-import { FaBriefcase, FaChartPie, FaCompass, FaHandshakeSimple, FaHouseLock, FaPiggyBank } from "react-icons/fa6";
+import { FaBriefcase,FaCompass, FaHouseLock, FaPiggyBank } from "react-icons/fa6";
 import '../css/services.css'
 
 function Services(){
