@@ -8,7 +8,7 @@ import client3 from '../assets/client2.jpeg'
 function MyClientSays() {
   return (
     <div className="profession client">
-      <p className="client_title">What My Clients Say</p>
+      <p className="client_title">What My Clients Say.</p>
       <div className="some_summary">
         <div className="some_wrapper">
           <div className="some">
@@ -31,7 +31,7 @@ function MyClientSays() {
             </div>
           </div>
         </div>
-        <div className="some_wrapper">
+        <div className="some_wrapper"  style={{display:"none"}}>
           <div className="some">
           <div className="icon client_image" >
               {/* <FaWandMagicSparkles /> */}
@@ -52,7 +52,7 @@ function MyClientSays() {
             </div>
           </div>
         </div>
-        <div className="some_wrapper">
+        <div className="some_wrapper" style={{display:"none"}}>
           <div className="some">
             <div className="icon client_image" >
               {/* <FaWandMagicSparkles /> */}

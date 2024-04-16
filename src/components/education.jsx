@@ -6,7 +6,7 @@ function Education() {
   return (
     <div className="services">
       <div className="skills">
-        <p className="skill_header">My Work Experience / Examinations .</p>
+        <p className="skill_header">My Work Experience / Examinations.</p>
 
         <div className="education">
           <div className="card_wrap">

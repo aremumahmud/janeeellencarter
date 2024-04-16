@@ -8,6 +8,7 @@ import Hero from "./components/hero"
 import MyClientSays from "./components/myClients"
 import ProfessionalBackground from "./components/profesional"
 import Services from "./components/services"
+import Stats from "./components/stats"
 
 function App() {
 
@@ -26,6 +27,8 @@ function App() {
       <Services />
       <Education />
       <MyClientSays />
+      <br />
+      <Stats />
     </>
   )
 }
