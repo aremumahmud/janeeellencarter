@@ -2,17 +2,31 @@ import { FaChartPie, FaGraduationCap } from "react-icons/fa6";
 import "../css/services.css";
 import "../css/education.css";
 
+import ScrollReveal from 'scrollreveal';
+import { useEffect } from 'react';
+
 function Education() {
+
+    useEffect(() => {
+        // Configure the scroll reveal animation
+        ScrollReveal().reveal('.up', {
+          delay: 200,
+          origin: 'bottom',
+          duration: 800,
+          scale: 1,
+        });
+      }, []);
+
   return (
     <div className="services">
       <div className="skills">
-        <p className="skill_header">My Work Experience / Examinations.</p>
+        <p className="skill_header up">My Work Experience / Examinations.</p>
 
         <div className="education">
           <div className="card_wrap">
             
             {" "}
-            <div className="card">
+            <div className="card up">
               <div className="icon exams_dates">
                 <div className="sp1">
                   <FaChartPie color="#BA5A31" />
@@ -29,7 +43,7 @@ function Education() {
                 since 6/21/2005 .
               </div>
             </div>
-            <div className="card">
+            <div className="card up">
               <div className="icon exams_dates">
                 <div className="sp1">
                   <FaGraduationCap color="#1E2D24" />
@@ -42,7 +56,7 @@ function Education() {
                 SIE – Securities Industry Essentials Examination.
               </div>
             </div>
-            <div className="card">
+            <div className="card up">
               <div className="icon exams_dates">
                 <div className="sp1">
                 <FaGraduationCap color="#1E2D24" />
@@ -55,7 +69,7 @@ function Education() {
                 Series 7 - General Securities Representative Examination.
               </div>
             </div>
-            <div className="card">
+            <div className="card up">
               <div className="icon exams_dates">
                 <div className="sp1">
                 <FaGraduationCap color="##1E2D24" />

@@ -1,9 +1,15 @@
 import '../css/hero.css'
 import jane from '../assets/jane.jpg'
+import 'animate.css'
+
 // import right from '../assets/right1.jpg'
 import {FaMessage} from 'react-icons/fa6'
 
+
 function Hero(){
+
+   
+
     return(
         <div className="hero">
             <div className="hero_left">
@@ -12,13 +18,13 @@ function Hero(){
                      <img src={jane} />
                 </div> */}
                 <div className="text">
-                    <div className="name">
+                    <div className="name animate__animated animate__fadeInLeft">
                         <p>Wealth Management With</p>
                         <p></p>
                         <p>JANE ELLEN CARTER</p>
                     </div>
                     
-                    <p style={{lineHeight:"1.5rem"}}> 
+                    <p className='animate__animated animate__fadeIn' style={{lineHeight:"1.5rem"}}> 
                         {
                             `Let's navigate the complexities of wealth together, crafting a personalized roadmap for your goals. 
                             From investments to retirement planning, I'm here to secure your prosperity. 

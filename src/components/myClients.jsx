@@ -4,13 +4,26 @@ import client2 from '../assets/client3.jpeg'
 import client1 from '../assets/client1.jpeg'
 import client3 from '../assets/client2.jpeg'
 // import { FaWandMagicSparkles } from "react-icons/fa6";
+import ScrollReveal from 'scrollreveal';
+import { useEffect } from 'react';
 
 function MyClientSays() {
+
+  useEffect(() => {
+    // Configure the scroll reveal animation
+    ScrollReveal().reveal('.up', {
+      delay: 200,
+      origin: 'bottom',
+      duration: 800,
+      scale: 1,
+    });
+  }, []);
+
   return (
     <div className="profession client">
-      <p className="client_title">What My Clients Say.</p>
+      <p className="client_title up">What My Clients Say.</p>
       <div className="some_summary">
-        <div className="some_wrapper">
+        <div className="some_wrapper up">
           <div className="some">
           <div className="icon client_image" >
               {/* <FaWandMagicSparkles /> */}
@@ -31,7 +44,7 @@ function MyClientSays() {
             </div>
           </div>
         </div>
-        <div className="some_wrapper"  style={{display:"none"}}>
+        <div className="some_wrapper up"  style={{display:"none"}}>
           <div className="some">
           <div className="icon client_image" >
               {/* <FaWandMagicSparkles /> */}
@@ -52,7 +65,7 @@ function MyClientSays() {
             </div>
           </div>
         </div>
-        <div className="some_wrapper" style={{display:"none"}}>
+        <div className="some_wrapper up" style={{display:"none"}}>
           <div className="some">
             <div className="icon client_image" >
               {/* <FaWandMagicSparkles /> */}
