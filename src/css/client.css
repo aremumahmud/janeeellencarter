@@ -1,0 +1,9 @@
+.client {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.client .client_title {
+    font-weight: 500;
+    font-size: 1.9rem;
+}
