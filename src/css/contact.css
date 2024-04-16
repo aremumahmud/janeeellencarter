@@ -37,6 +37,10 @@ button {
     background-color: #0b8457;
     color: #ffff;
     font-size: .9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
 }
 
 .form form textarea {

@@ -1,6 +1,8 @@
 import "../css/contact.css";
 import jane from '../assets/contact.jpg'
 
+import {FaMessage} from 'react-icons/fa6'
+
 
 function Contact() {
   return (
@@ -17,7 +19,7 @@ function Contact() {
           <input type="tel" placeholder="Phone number"/>
           <input type="text" placeholder="Home address / Location" />
           <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-          <button type="submit">Send me a message</button>
+          <button type="submit">Send me a message <FaMessage /></button>
         </form>
         <div className="image1">
         <div className="image">
