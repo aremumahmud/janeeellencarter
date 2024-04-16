@@ -7,3 +7,20 @@
     font-weight: 500;
     font-size: 1.9rem;
 }
+
+.client .some_summary {
+    flex-direction: column;
+}
+
+.client_image {
+    width: 6rem !important;
+    height: 6rem !important;
+    padding: 0rem !important;
+    background: none !important;
+}
+
+.client_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
