@@ -1,5 +1,5 @@
 import '../css/proffesion.css'
-import { FaWandMagicSparkles } from 'react-icons/fa6'
+import { FaArrowUpRightFromSquare, FaCalendar, FaCertificate} from 'react-icons/fa6'
 
 import ScrollReveal from 'scrollreveal';
 import { useEffect } from 'react';
@@ -21,13 +21,13 @@ function ProfessionalBackground(){
                 <p className='summary_content'> With over 18 years in finance, Jane Nellen Carter efficiently manages wealth. Holding licenses in 36 states, her expertise is solid. For more details, visit BrokerCheck.
 </p>
 
-                    <div className="btn"><a href="https://brokercheck.finra.org/individual/summary/1241156">Visit Broker Check</a></div>
+<a href="https://brokercheck.finra.org/individual/summary/1241156"><div className="btn">Visit Broker Check <FaArrowUpRightFromSquare /></div></a>
             </div>
 
             <div className="some_summary">
                 <div className="some_wrapper up">
                                     <div className="some">
-                    <div className="icon color-d28"><FaWandMagicSparkles /></div>
+                    <div className="icon color-d28"><FaCalendar/></div>
                     <div className="content">
                         <p className="content_title">Years of Exp.</p>
                         <p className="content_content"> Jane Ellen Carter boasts over 18 years of experience in the financial sector, enabling her to adeptly oversee wealth management processes.</p>
@@ -36,7 +36,7 @@ function ProfessionalBackground(){
                 </div>
                 <div className="some_wrapper up">
                     <div className="some">
-                                    <div className="icon"><FaWandMagicSparkles /></div>
+                                    <div className="icon"><FaCertificate /></div>
                                     <div className="content">
                                         <p className="content_title">State licences</p>
                                         <p className="content_content">  She also holds licenses in 36 states, further demonstrating her extensive expertise and credibility in the field.</p>
