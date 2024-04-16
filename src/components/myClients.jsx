@@ -20,7 +20,7 @@ function MyClientSays() {
   }, []);
 
   return (
-    <div className="profession client">
+    <div className="profession client" id="reviews">
       <p className="client_title up">What My Clients Say.</p>
       <div className="some_summary">
         <div className="some_wrapper up">

@@ -31,7 +31,7 @@ function Hero(){
                             Let's start building your brighter tomorrow today.`
                         }
                     </p>
-                    <div className="cta">Contact me <FaMessage /></div>
+                    <div className="cta"><a href="#contact">Contact me <FaMessage /></a></div>
                 </div>
                 
                 </div>

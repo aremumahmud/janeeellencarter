@@ -16,7 +16,7 @@ function AboutSection() {
         });
       }, []);
   return (
-    <div className="about_section">
+    <div className="about_section" id="about">
       <div className="about_left">
         <div className="image up">
           <img src={jane} alt="" />

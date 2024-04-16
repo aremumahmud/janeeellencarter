@@ -18,10 +18,10 @@ function ProfessionalBackground(){
         <div className="profession">
             <div className="summary up">
                 <p>Proffesional Background</p>
-                <p className='summary_content'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Inventore animi veritatis, sunt voluptatem magni unde corporis.</p>
+                <p className='summary_content'> With over 18 years in finance, Jane Nellen Carter efficiently manages wealth. Holding licenses in 36 states, her expertise is solid. For more details, visit BrokerCheck.
+</p>
 
-                    <div className="btn">Visit Broker Check</div>
+                    <div className="btn"><a href="https://brokercheck.finra.org/individual/summary/1241156">Visit Broker Check</a></div>
             </div>
 
             <div className="some_summary">
@@ -30,8 +30,7 @@ function ProfessionalBackground(){
                     <div className="icon color-d28"><FaWandMagicSparkles /></div>
                     <div className="content">
                         <p className="content_title">Years of Exp.</p>
-                        <p className="content_content"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Inventore animi veritatis, sunt voluptatem magni unde corporis.</p>
+                        <p className="content_content"> Jane Ellen Carter boasts over 18 years of experience in the financial sector, enabling her to adeptly oversee wealth management processes.</p>
                     </div>
                 </div>
                 </div>
@@ -40,8 +39,7 @@ function ProfessionalBackground(){
                                     <div className="icon"><FaWandMagicSparkles /></div>
                                     <div className="content">
                                         <p className="content_title">State licences</p>
-                                        <p className="content_content"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                        Inventore animi veritatis, sunt voluptatem magni unde corporis.</p>
+                                        <p className="content_content">  She also holds licenses in 36 states, further demonstrating her extensive expertise and credibility in the field.</p>
                                     </div>
                                 </div>
                 </div>

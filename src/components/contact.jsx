@@ -20,7 +20,7 @@ function Contact() {
   }, []);
 
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="profession client stat">
         <p className="client_title contact_title up">Contact Me.</p>
         <p className="up">Feel free to send a message through the contact box. I will send a reply within 24 hours</p>

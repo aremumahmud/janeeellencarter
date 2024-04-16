@@ -11,16 +11,20 @@ function Header (){
                 </div>
                 <div className="menus">
                 <ul>
-                    <li><FaHouse /> Home</li>
-                    <li><FaCircleInfo /> About</li>
-                    <li><FaGear /> Services</li>
-                    <li><FaStar /> Reviews</li>
+                    <a href="/"><li><FaHouse /> Home</li></a>
+                    <a href="#about"><li><FaCircleInfo /> About</li></a>
+                    <a href="#services"><li><FaGear /> Services</li></a>
+                    <a href="#reviews"><li><FaStar /> Reviews</li></a>
                 </ul>
             </div>
-            <div className="cta">
-                Contact me
+            <a href="#contact"> <div className="cta">
+               
+
+                     Contact me
                 <FaMessage />
-            </div>
+               
+               
+            </div> </a>
             </div>
 
             

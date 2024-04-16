@@ -15,7 +15,7 @@ function Services(){
         });
       }, []);
     return (
-        <div className="services">
+        <div className="services" id="services">
             <div className="skills">
           <p className="skill_header up">My Services.</p>
 

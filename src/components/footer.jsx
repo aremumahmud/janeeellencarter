@@ -34,17 +34,17 @@ function Footer() {
       <div className="strand ">
         <p className="title up">Company</p>
         <ul className="up">
-          <li><FaHouse /> Home</li>
-          <li><FaCircleInfo /> About</li>
-          <li><FaGear /> Services</li>
-          <li><FaStar /> Reviews</li>
+          <a href="/"><li><FaHouse /> Home</li></a>
+          <a href="#about"><li><FaCircleInfo /> About</li></a>
+          <a href="#services"><li><FaGear /> Services</li></a>
+          <a href="#reviews"><li><FaStar /> Reviews</li></a>
         </ul>
       </div>
       <div className="strand">
         <p className="title up">Contacts</p>
         <ul className="up">
-          <li><FaEnvelope /> hello@janeellencarter.com</li>
-          <li><FaPhone /> +1 281-823-9633</li>
+          <a href="mailto:hello@janeellencarter.com"><li><FaEnvelope /> hello@janeellencarter.com</li></a>
+          <a href="tel:+12818239633"><li><FaPhone /> +1 281-823-9633</li></a>
           <li><FaAddressCard /> ONE BRYANT PARK NEW YORK, NY 10036</li>
         </ul>
       </div>
