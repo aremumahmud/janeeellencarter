@@ -44,7 +44,7 @@ function MyClientSays() {
             </div>
           </div>
         </div>
-        <div className="some_wrapper up"  style={{display:"none"}}>
+        <div className="some_wrapper up"  >
           <div className="some">
           <div className="icon client_image" >
               {/* <FaWandMagicSparkles /> */}
@@ -65,7 +65,7 @@ function MyClientSays() {
             </div>
           </div>
         </div>
-        <div className="some_wrapper up" style={{display:"none"}}>
+        <div className="some_wrapper up" >
           <div className="some">
             <div className="icon client_image" >
               {/* <FaWandMagicSparkles /> */}
