@@ -2,6 +2,7 @@
 // import './App.css'
 
 import AboutSection from "./components/aboutsection"
+import Contact from "./components/contact"
 import Education from "./components/education"
 import Header from "./components/header"
 import Hero from "./components/hero"
@@ -27,8 +28,8 @@ function App() {
       <Services />
       <Education />
       <MyClientSays />
-      <br />
       <Stats />
+      <Contact />
     </>
   )
 }
