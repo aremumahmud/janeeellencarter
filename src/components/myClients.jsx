@@ -7,7 +7,7 @@ import client3 from '../assets/client2.jpeg'
 import ScrollReveal from 'scrollreveal';
 import { useEffect } from 'react';
 
-import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee";
 
 
 function MyClientSays() {
@@ -82,7 +82,7 @@ function MyClientSays() {
 
                 
 I am a regular trader who recently looked to optimise my leverage and
-lower brokerage fees by trading more often. I wanted to quit my full-time job to pursue trading full time but wasn&apos;t making enough from it at first. I tried multiple brokerage companies to get tips and information, but none were helping me. Until I discovered Patricia Ann Gammon, which offered some of the best expert trading strategies out there. She gave me plenty of advice and information to help me improve the success of my investments. I have since quit my day job and trade full-
+lower brokerage fees by trading more often. I wanted to quit my full-time job to pursue trading full time but wasn&apos;t making enough from it at first. I tried multiple brokerage companies to get tips and information, but none were helping me. Until I discovered Jane Ellen Carter, which offered some of the best expert trading strategies out there. She gave me plenty of advice and information to help me improve the success of my investments. I have since quit my day job and trade full-
 time
               </p>
             </div>

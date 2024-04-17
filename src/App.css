@@ -6,8 +6,12 @@
     */
         /* .menus, */
         .header {
-            background-color: #cccccc2f;
+            background-color: #ebe9e9;
             ;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+            width: 100%;
         }
         .header .cta {
             display: none !important;
@@ -23,7 +27,7 @@
             flex-direction: column;
             position: absolute;
             left: 0;
-            top: 15%;
+            top: 90%;
             /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
             width: 95%;
             justify-content: flex-start;
@@ -51,6 +55,7 @@
         }
         .hero_left {
             width: 100% !important;
+            margin-top: 30%;
         }
         .hero_left .text .name p {
             font-size: 2.2rem !important;
@@ -120,6 +125,10 @@
         .client_title {
             font-size: 1.6rem !important;
         }
+        .client .some_summary {
+            flex-direction: column;
+            display: flex !important;
+        }
         /* 
     
     
@@ -161,5 +170,8 @@
             display: grid !important;
             gap: 30px 30px !important;
             grid-template-columns: 1fr 1fr;
+        }
+        .mobile {
+            display: flex !important;
         }
     }

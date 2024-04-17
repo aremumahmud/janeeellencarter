@@ -26,7 +26,7 @@ function AboutSection() {
         </div>
       </div>
       <div className="about_right">
-      <div className="icon client_image up" >
+      <div className="icon client_image up mobile" >
               {/* <FaWandMagicSparkles /> */}
               <img src={jane} alt="" />
             </div>

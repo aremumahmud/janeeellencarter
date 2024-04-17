@@ -6,6 +6,7 @@
 
 .stat .some_summary {
     width: 100% !important;
+    display: flex !important;
 }
 
 .stt {
