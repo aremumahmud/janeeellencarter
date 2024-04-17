@@ -1,5 +1,5 @@
 
-// import './App.css'
+import './App.css'
 
 import AboutSection from "./components/aboutsection"
 import Contact from "./components/contact"
@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <Header />
-      <br />
+       <br />
       <Hero />
       <br />
       <br />
@@ -34,7 +34,7 @@ function App() {
       <Contact />
       <br /><br />
       <Footer />
-      <CopyWright />
+      <CopyWright />{/* */}
     </>
   )
 }
