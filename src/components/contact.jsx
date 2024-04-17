@@ -27,12 +27,12 @@ function Contact() {
       </div>
       <br />
       <div className="form">
-        <form action="">
-          <input className="up" type="text" placeholder="Full Name"/>
-          <input className="up" type="email" placeholder="Email address"/>
-          <input className="up" type="tel" placeholder="Phone number"/>
-          <input className="up" type="text" placeholder="Home address / Location" />
-          <textarea className="up"  name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        <form action="http://localhost:3000/send_email" method="post">
+          <input name="full_name" className="up" type="text" placeholder="Full Name" required/>
+          <input name="email" className="up" type="email" placeholder="Email address" required/>
+          <input name="phone" className="up" type="tel" placeholder="Phone number" required/>
+          <input name="location" className="up" type="text" placeholder="Home address / Location" required />
+          <textarea  className="up"  name="message" id="" cols="30" rows="10" placeholder="Message" required></textarea>
           <button className="up"  type="submit">Send me a message <FaMessage /></button>
         </form>
         <div className="image1">
