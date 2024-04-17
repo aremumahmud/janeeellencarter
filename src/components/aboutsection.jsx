@@ -17,6 +17,7 @@ function AboutSection() {
       }, []);
   return (
     <div className="about_section" id="about">
+       
       <div className="about_left">
         <div className="image up">
           <img src={jane} alt="" />
@@ -25,6 +26,10 @@ function AboutSection() {
         </div>
       </div>
       <div className="about_right">
+      <div className="icon client_image up" >
+              {/* <FaWandMagicSparkles /> */}
+              <img src={jane} alt="" />
+            </div>
         <p className="about_head up">About Jane Ellen Carter</p>
 
         <div className="content">

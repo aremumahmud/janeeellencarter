@@ -7,6 +7,9 @@ import client3 from '../assets/client2.jpeg'
 import ScrollReveal from 'scrollreveal';
 import { useEffect } from 'react';
 
+import Marquee from "react-fast-marquee";
+
+
 function MyClientSays() {
 
   useEffect(() => {
@@ -22,8 +25,9 @@ function MyClientSays() {
   return (
     <div className="profession client" id="reviews">
       <p className="client_title up">What My Clients Say.</p>
-      <div className="some_summary">
-        <div className="some_wrapper up">
+       <div className="some_summary">
+       
+         <div className="some_wrapper up">
           <div className="some">
           <div className="icon client_image" >
               {/* <FaWandMagicSparkles /> */}
@@ -84,6 +88,8 @@ time
             </div>
           </div>
         </div>
+        
+       
       </div>
     </div>
   );
