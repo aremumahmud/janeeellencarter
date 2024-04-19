@@ -38,7 +38,7 @@ function MyClientSays() {
               <p className="content_content">
                 {" "}
                 I&apos;m incredibly grateful for Jane Carter&apos;s expertise in tax planning. Her strategic guidance and 
-                personalized approach have been invaluable in optimizing my tax strategy. With her help, i've been able to navigate complex tax laws and maximize my savings
+                personalized approach have been invaluable in optimizing my tax strategy. With her help, i&apos;ve been able to navigate complex tax laws and maximize my savings
                 while ensuring compliance. Jane Carter is not just a financial advisor but a trusted partner who is commited to my
                 financialwell-being. I highly recomment their services to anyone looking to achieve greater financial efficiency and peace of mind.
               </p>
