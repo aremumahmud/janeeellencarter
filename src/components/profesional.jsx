@@ -24,7 +24,7 @@ function ProfessionalBackground() {
         <p>Proffesional Background</p>
         <p className="summary_content">
           {" "}
-          With over 18 years in finance, Jane Nellen Carter efficiently manages
+          With over 18 years in finance, Jane Ellen Carter efficiently manages
           wealth. Holding licenses in 36 states, her expertise is solid. For
           more details, visit BrokerCheck.
         </p>

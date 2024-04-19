@@ -104,3 +104,10 @@
 .mobile {
     display: none;
 }
+
+.read_more {
+    color: #143109;
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+}

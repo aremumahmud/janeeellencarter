@@ -46,10 +46,10 @@ function Stats() {
       duration: 800,
       scale: 1,
       beforeReveal: ()=> stopwatch([
-        { limit: 1000, changer: setOne },
-        { limit: 1000, changer: setTwo },
-        { limit: 1900, changer: setThree },
-        { limit: 1800, changer: setFour },
+        { limit: 19, changer: setOne },
+        { limit: 1110, changer: setTwo },
+        { limit: 870, changer: setThree },
+        { limit: 576, changer: setFour },
       ]),
     });
   }, []);
@@ -60,7 +60,7 @@ function Stats() {
         <div className="some_wrapper stats upto">
           <div className="some">
             <div className="stt">
-              <div className="count">{four}</div>
+              <div className="count">{four}+</div>
               <div>
                 <FaHandsClapping color="brown" /> Happy Client
               </div>
@@ -72,13 +72,13 @@ function Stats() {
               </div>
             </div>
             <div className="stt">
-              <div className="count">{two}</div>
+              <div className="count">{two}+</div>
               <div>
                 <FaBriefcase color="green" /> Portfolio handled
               </div>
             </div>
             <div className="stt">
-              <div className="count">{three}</div>
+              <div className="count">${three}M+</div>
               <div>
                 <FaCoins color="grey" /> Profit Generated{" "}
               </div>

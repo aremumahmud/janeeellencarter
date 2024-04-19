@@ -1,15 +1,26 @@
 import '../css/hero.css'
 import jane from '../assets/jane.jpg'
+import jane1 from "../imgs/about.jpeg";
 import 'animate.css'
 
 // import right from '../assets/right1.jpg'
 import {FaMessage} from 'react-icons/fa6'
+import { useEffect, useState } from 'react';
 
 
 function Hero(){
 
    
+    let [on , setOn] = useState(false)
 
+    useEffect(()=>{
+     
+        let interval = setInterval(()=>{
+            setOn(onting => !onting)
+        } , 3000)
+
+        return ()=>clearInterval(interval)
+    }, [])
     return(
         <div className="hero">
             <div className="hero_left">
@@ -41,7 +52,10 @@ function Hero(){
             <div className="hero_right">
                 
              <div className="image">
-                <img src={jane} alt="" />
+                {
+                    on? <img className='animate__animated animate__fadeIn' src={jane} alt="" />: <img   src={jane1} alt="" />
+                }
+               
                 <div className="ball"></div>
                 <div className="ball1"></div>
              </div>

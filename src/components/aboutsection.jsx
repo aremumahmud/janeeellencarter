@@ -3,9 +3,14 @@ import "../css/about.css";
 import { FaCalculator, FaChartBar, FaCoins, FaHouseLock } from "react-icons/fa6";
 
 import ScrollReveal from 'scrollreveal';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 function AboutSection() {
+
+
+   let [less , setLess] =  useState (false)
+
+
     useEffect(() => {
         // Configure the scroll reveal animation
         ScrollReveal().reveal('.up', {
@@ -34,21 +39,30 @@ function AboutSection() {
 
         <div className="content">
           <p className="up">
-            I am a financial consultant and stock broker with over 17 years of
+            I am a financial consultant and stock broker with over 18 years of
             experience in 5 different prestigious investment firms in the United
             States.
           </p>
           <p  className="up">
             I have passed 7 qualification exams and have successfully obtained
-            52 state licenses. I currently patner with NORTHWESTERN MUTUAL
-            INVESTMENT SERVICES, LLC
+            52 state licenses. I currently partner with MERRILL LYNCH, PIERCE, FENNER & SMITH INCORPORATED
           </p>
           <p  className="up">
-            (CRD#: 2881); handling portfolios for Individuals and Companies
+            (CRD#: 7691); handling portfolios for Individuals and Companies
             alike. I’ve done countless research on the finance markets and I
             have drawn up several profit accumulation strategies which been
-            implemented on my clients portfolios with a 99% success rate.
-          </p>{" "}
+            implemented on my clients portfolios with a 99% success rate. {!less &&<><br /><span onClick={()=>setLess(true)}  className="read_more">read more ...</span></>}
+          </p>
+          {
+            less&&<p className="up">
+            For over two decades. i&apos;ve assisted clients in acheiving financial goals, Specializing in investment
+            management and wealth advice. i cater to high-net-worth individuals, families and retirees. My expertise covers investment management,
+            financial planning and retirement strategies. Clients rely on me for strength and peace-of-mind through quality financial advice. My commitment
+            revolves around achievement, building relationships and upholding integrity. <br /> <span onClick={()=>setLess(false)}  className="read_more">less ...</span>
+          </p>
+          }
+
+          
         </div>
         <br />
         <div className="skills">

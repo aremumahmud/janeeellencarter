@@ -27,7 +27,7 @@ function Contact() {
       </div>
       <br />
       <div className="form">
-        <form action="http://localhost:3000/send_email" method="post">
+        <form action="/send_email" method="post">
           <input name="full_name" className="up" type="text" placeholder="Full Name" required/>
           <input name="email" className="up" type="email" placeholder="Email address" required/>
           <input name="phone" className="up" type="tel" placeholder="Phone number" required/>

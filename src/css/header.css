@@ -1,9 +1,12 @@
 .header_wrapper {
     width: 100%;
     height: fit-content;
+    position: fixed;
+    z-index: 100;
 }
 
 .header {
+    background-color: #ffffff;
     display: flex;
     justify-content: space-around;
     align-items: center;

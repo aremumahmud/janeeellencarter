@@ -37,13 +37,10 @@ function MyClientSays() {
               <p className="content_title">Elizabeth Versfeld</p>
               <p className="content_content">
                 {" "}
-                Jane ellen carter gave me the best independent advice on my
-                investment strategy. I am able to monitor the performance,
-                switch funds and add to the investment with little or no hassle.
-                Even as a sophisticated investor, I believe it&apos;s important to
-                have an advisor like Jane ellen carter to assist with your
-                portfolio which mirrors your risk profile and investment
-                timeline and requirements.
+                I&apos;m incredibly grateful for Jane Carter&apos;s expertise in tax planning. Her strategic guidance and 
+                personalized approach have been invaluable in optimizing my tax strategy. With her help, i've been able to navigate complex tax laws and maximize my savings
+                while ensuring compliance. Jane Carter is not just a financial advisor but a trusted partner who is commited to my
+                financialwell-being. I highly recomment their services to anyone looking to achieve greater financial efficiency and peace of mind.
               </p>
             </div>
           </div>

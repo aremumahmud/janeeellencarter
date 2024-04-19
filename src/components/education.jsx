@@ -34,13 +34,13 @@ function Education() {
                 </div>
 
                 <span style={{ float: "right" }}>
-                  2005 - Present (17 Years)
+                  2006 - Present (18 Years)
                 </span>
               </div>
               <div className="skill_level l15 op8">
-                NORTHWESTERN MUTUAL INVESTMENT SERVICES, LLC (CRD#:2881) 113
-                HOWARD STREET, PETOSKEY, MI 49770 Registered with this firm
-                since 6/21/2005 .
+               MERRILL LYNCH, PIERCE, FENNER & SMITH INCORPORATED (CRD#:7691) 9921
+                DUPONT CIRCLE DR W FORT WAYNE, IN 46825. Registered with this firm
+                since 5/17/2006 .
               </div>
             </div>
             <div className="card up">
@@ -50,7 +50,7 @@ function Education() {
                   General Industry/Products Exam
                 </div>
 
-                <span>Oct 21, 2018</span>
+                <span>Oct 1, 2018</span>
               </div>
               <div className="skill_level l15">
                 SIE – Securities Industry Essentials Examination.
@@ -63,7 +63,7 @@ function Education() {
                   General Industry/Products Exam
                 </div>
 
-                <span>June 20, 2005</span>
+                <span>Feb 24, 2006</span>
               </div>
               <div className="skill_level l15">
                 Series 7 - General Securities Representative Examination.
@@ -76,10 +76,10 @@ function Education() {
                   State Securities Law Exam
                 </div>
 
-                <span>April 27, 2004</span>
+                <span>May 16, 2006</span>
               </div>
               <div className="skill_level l15">
-                Series 63 - Uniform Securities Agent State Law Examination.
+                Series 66 - Uniform Combined State Law Examination.
               </div>
             </div>
           </div>

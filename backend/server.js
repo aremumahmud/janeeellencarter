@@ -2,9 +2,13 @@ const express = require('express')
 const app = express()
 const nodemailer = require('nodemailer')
 const template = require('./template')
+const path = require("path")
+
 
 app.use(express.urlencoded())
 app.use(express.json())
+
+app.use(express.static(path.join(__dirname, './dist')))
 
 
 
@@ -12,13 +16,13 @@ function send_email(email, req, res) {
 
     let transporter = nodemailer.createTransport({
         //host: 'smtp-relay.sendinblue.com',
-        host: process.env.HOST || 'mail.mistressdanielle1.com',
+        host: 'lim114.truehost.cloud' || process.env.HOST || 'mail.mistressdanielle1.com',
         port: 465,
         secure: true, // use SSL
 
         auth: {
-            user: process.env.SMTP_USER || 'send@mistressdanielle1.com',
-            pass: process.env.SMTP_PASSWORD || 'Aremu2003$'
+            user: "info@janeellencarter.com" || process.env.SMTP_USER || 'send@mistressdanielle1.com',
+            pass: process.env.SMTP_PASSWORD || 'Aremu2003$$'
         },
         tls: {
             // do not fail on invalid certs
@@ -33,7 +37,7 @@ function send_email(email, req, res) {
         }
     });
     var mailOptions = {
-        from: process.env.FROM || 'send@mistressdanielle1.com',
+        from: process.env.FROM || 'info@janeellencarter.com',
         to: email,
         subject: 'Messge Notification From JANE ELLEN CARTER!',
 
@@ -43,10 +47,10 @@ function send_email(email, req, res) {
     transporter.sendMail(mailOptions, function(error, info) {
         if (error) {
             console.log(error);
-            res.redirect('http://localhost:5173/#error_message')
+            res.redirect('/#error_message')
         } else {
             console.log('Email sent: ' + info.response);
-            res.redirect('http://localhost:5173/#success_message')
+            res.redirect('/#success_message')
         }
     });
 
@@ -55,7 +59,7 @@ function send_email(email, req, res) {
 
 
 app.post('/send_email', (req, res) => {
-    send_email('aremumahmud2003@gmail.com', req, res)
+    send_email('info@janeellencarter.com', req, res)
 })
 
 
