@@ -1,5 +1,5 @@
 import "../css/contact.css";
-import jane from '../assets/contact.jpg'
+import jane from '../assets/67.jpg'
 
 import {FaMessage} from 'react-icons/fa6'
 
@@ -22,8 +22,8 @@ function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="profession client stat">
-        <p className="client_title contact_title up">Contact Me.</p>
-        <p className="up">Feel free to send a message through the contact box. I will send a reply within 24 hours</p>
+        <p className="client_title contact_title up">Contact Us.</p>
+        <p className="up">Feel free to send a message through the contact box. We will send a reply with a proffesional within 24 hours</p>
       </div>
       <br />
       <div className="form">
@@ -32,6 +32,7 @@ function Contact() {
           <input name="email" className="up" type="email" placeholder="Email address" required/>
           <input name="phone" className="up" type="tel" placeholder="Phone number" required/>
           <input name="location" className="up" type="text" placeholder="Home address / Location" required />
+          <input name="location" className="up" type="text" placeholder="Service Required" required />
           <textarea  className="up"  name="message" id="" cols="30" rows="10" placeholder="Message" required></textarea>
           <button className="up"  type="submit">Send me a message <FaMessage /></button>
         </form>

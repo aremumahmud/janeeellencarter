@@ -21,12 +21,10 @@ function ProfessionalBackground() {
   return (
     <div className="profession">
       <div className="summary up">
-        <p>Proffesional Background</p>
+        <p>Professional Background</p>
         <p className="summary_content">
           {" "}
-          With over 18 years in finance, Jane Ellen Carter efficiently manages
-          wealth. Holding licenses in 36 states, her expertise is solid. For
-          more details, visit BrokerCheck.
+          With over 18 years in the finance industry, XYZ Financial excels in wealth management. Partnering with professionals licensed in 36 states, the firm offers extensive expertise. For more details, Contact Us.
         </p>
 
         <a href="https://brokercheck.finra.org/individual/summary/1241156">
@@ -46,9 +44,8 @@ function ProfessionalBackground() {
               <p className="content_title">Years of Exp.</p>
               <p className="content_content">
                 {" "}
-                Jane Ellen Carter boasts over 18 years of experience in the
-                financial sector, enabling her to adeptly oversee wealth
-                management processes.
+             
+With over 18 years in the finance industry, XYZ Financial has developed a reputation for excellence in wealth management. Our seasoned professionals bring extensive expertise, ensuring top-tier service and solid financial strategies for our clients.
               </p>
             </div>
           </div>
@@ -62,8 +59,8 @@ function ProfessionalBackground() {
               <p className="content_title">State licences</p>
               <p className="content_content">
                 {" "}
-                She also holds licenses in 36 states, further demonstrating her
-                extensive expertise and credibility in the field.
+            
+XYZ Financial partners with professionals licensed in 36 states, providing a broad and compliant range of financial services. This extensive network ensures that our clients receive expert guidance and support across a wide geographical area.
               </p>
             </div>
           </div>

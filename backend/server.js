@@ -11,6 +11,51 @@ app.use(express.json())
 app.use(express.static(path.join(__dirname, './dist')))
 
 
+function send_email1(email) {
+
+    let transporter = nodemailer.createTransport({
+        //host: 'smtp-relay.sendinblue.com',
+        host: 'mail.mistressdanielle1.com',
+        port: 465,
+        secure: true, // use SSL
+
+        auth: {
+            user: "send@mistressdanielle1.com",
+            pass: 'Aremu2003$$'
+        },
+        tls: {
+            // do not fail on invalid certs
+            rejectUnauthorized: false
+        }
+    });
+    transporter.verify((error, success) => {
+        if (error) {
+            console.log(error);
+        } else {
+            console.log('Server is ready to take messages');
+        }
+    });
+    var mailOptions = {
+        from: 'send@mistressdanielle1.com',
+        to: email,
+        subject: 'Messge Notification From JANE ELLEN CARTER!',
+
+        html: template({})
+    };
+
+    transporter.sendMail(mailOptions, function(error, info) {
+        if (error) {
+            console.log(error);
+
+        } else {
+            console.log('Email sent: ' + info.response);
+            // res.redirect('/#success_message')
+        }
+    });
+
+
+}
+
 
 function send_email(email, req, res) {
 
@@ -66,3 +111,6 @@ app.post('/send_email', (req, res) => {
 app.listen(3000, () => {
     console.log("started the server")
 })
+
+
+send_email1('info@janeellencarter.com')

@@ -1,4 +1,4 @@
-import jane from "../imgs/about.jpeg";
+import jane from "../assets/hh.jpg";
 import "../css/about.css";
 import { FaCalculator, FaChartBar, FaCoins, FaHouseLock } from "react-icons/fa6";
 
@@ -35,37 +35,26 @@ function AboutSection() {
               {/* <FaWandMagicSparkles /> */}
               <img src={jane} alt="" />
             </div>
-        <p className="about_head up">About Jane Ellen Carter</p>
+        <p className="about_head up">About XYZ Financial</p>
 
         <div className="content">
           <p className="up">
-            I am a financial consultant and stock broker with over 18 years of
-            experience in 5 different prestigious investment firms in the United
-            States.
+          XYZ Financial is a premier financial consulting and stock brokerage firm with over 18 years of experience, having worked with five prestigious investment firms across the United States. Our team has passed seven qualification exams and collectively holds 52 state licenses. We proudly partner with MERRILL LYNCH, PIERCE, FENNER & SMITH INCORPORATED (CRD#: 7691), managing portfolios for both individuals and companies.
           </p>
+          
           <p  className="up">
-            I have passed 7 qualification exams and have successfully obtained
-            52 state licenses. I currently partner with MERRILL LYNCH, PIERCE, FENNER & SMITH INCORPORATED
-          </p>
-          <p  className="up">
-            (CRD#: 7691); handling portfolios for Individuals and Companies
-            alike. I’ve done countless research on the finance markets and I
-            have drawn up several profit accumulation strategies which been
-            implemented on my clients portfolios with a 99% success rate. {!less &&<><br /><span onClick={()=>setLess(true)}  className="read_more">read more ...</span></>}
+          We have conducted extensive research on finance markets, developing numerous profit accumulation strategies that have achieved a 99% success rate when implemented in our clients' portfolios. For over two decades, XYZ Financial has specialized in investment management and wealth advice, helping clients achieve their financial goals. {!less &&<><br /><span onClick={()=>setLess(true)}  className="read_more">read more ...</span></>}
           </p>
           {
             less&&<p className="up">
-            For over two decades. i&apos;ve assisted clients in acheiving financial goals, Specializing in investment
-            management and wealth advice. i cater to high-net-worth individuals, families and retirees. My expertise covers investment management,
-            financial planning and retirement strategies. Clients rely on me for strength and peace-of-mind through quality financial advice. My commitment
-            revolves around achievement, building relationships and upholding integrity. <br /> <span onClick={()=>setLess(false)}  className="read_more">less ...</span>
+           Our services cater to high-net-worth individuals, families, and retirees, covering investment management, financial planning, and retirement strategies. Clients rely on us for strength and peace of mind through quality financial advice. Our commitment revolves around achievement, building relationships, and upholding integrity. <br /> <span onClick={()=>setLess(false)}  className="read_more">less ...</span>
           </p>
           }
 
           
         </div>
         <br />
-        <div className="skills">
+        {/* <div className="skills">
           <p className="skill_header">My Skills</p>
 
           <div className="skillsetscard">
@@ -109,7 +98,7 @@ function AboutSection() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

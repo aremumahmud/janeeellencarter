@@ -1,24 +1,14 @@
 
 import './App.css'
 
-import AboutSection from "./components/aboutsection"
-import Contact from "./components/contact"
-import CopyWright from "./components/copywright"
-import Education from "./components/education"
-import Footer from "./components/footer"
-import Header from "./components/header"
-import Hero from "./components/hero"
-import MyClientSays from "./components/myClients"
-import ProfessionalBackground from "./components/profesional"
-import Services from "./components/services"
-import Stats from "./components/stats"
 import { ReactNotifications } from 'react-notifications-component'
 import './css/notification_theme.css'
 
 import { Store } from 'react-notifications-component';
 import { useEffect } from 'react'
+import Home from './src2/components/Home'
 // import { useEffect } from 'react'
-
+import './src2/css/responsive.css'
 function successMessage(){
   Store.addNotification({
     title: "",
@@ -66,24 +56,9 @@ function App() {
   return (
     <>
     <ReactNotifications />
-      <Header />
-       <br />
-      <Hero />
-      <br />
-      <br />
-      <br />
-      <ProfessionalBackground />
-      <AboutSection />
-      <br />
-      <br />
-      <Services />
-      <Education />
-      <MyClientSays />
-      <Stats />
-      <Contact />
-      <br /><br />
-      <Footer />
-      <CopyWright />{/* */}
+     
+     <Home />
+      
     </>
   )
 }

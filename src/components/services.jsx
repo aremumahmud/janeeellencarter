@@ -17,7 +17,8 @@ function Services(){
     return (
         <div className="services" id="services">
             <div className="skills">
-          <p className="skill_header up">My Services.</p>
+          <p className="skill_header up">We offer great number of
+finance services.</p>
 
           <div className="skillsetscard">
             <div className="card_wrap up">

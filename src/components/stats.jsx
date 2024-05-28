@@ -55,7 +55,7 @@ function Stats() {
   }, []);
   return (
     <div className="profession client stat">
-      <p className="client_title up">My Professional Stats.</p>
+      <p className="client_title up">Our Professional Statistics.</p>
       <div className="some_summary">
         <div className="some_wrapper stats upto">
           <div className="some">
