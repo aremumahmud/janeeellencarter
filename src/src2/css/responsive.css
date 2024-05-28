@@ -185,4 +185,9 @@
             padding-bottom: 1rem;
             border-bottom: 1px solid #ccc;
         }
+        .team .values .value {
+            height: 90%;
+            width: 100%!important;
+            padding: 10px;
+        }
     }
