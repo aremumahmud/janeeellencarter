@@ -14,7 +14,7 @@ import Why from "./why"
 function Home(){
     return(
         <> <Header />
-        <br /><br /><br /><br id="ff" />
+        <br /><br /><br className="ff" /><br className="ff" />
          <Hero />
          <CompanyValues /> 
         <div className="container">
